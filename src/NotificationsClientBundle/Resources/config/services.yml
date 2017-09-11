@@ -1,0 +1,7 @@
+services:
+#    notifications_client.example:
+#        class: NotificationsClientBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+  notifications:
+    class: NotificationsClientBundle\Service\NotificationsService
+    arguments: ["%notification_server_address%", "%notification_user_name%", "%notification_api_key%"]

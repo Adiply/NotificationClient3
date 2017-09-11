@@ -1,0 +1,5 @@
+notifications_client:
+    resource: "@NotificationsClientBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
