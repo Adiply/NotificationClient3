@@ -11,9 +11,11 @@ namespace NotificationsClientBundle\Model;
 
 class NotificationMessages
 {
-    const STATUS_NEW = 0;
-    const STATUS_SEEN = 1;
-    const STATUS_CLEAR = 2;
+    const STATUS_NEW = 1;
+    const STATUS_SEEN = 2;
+    const STATUS_CLEAR = 3;
+
+    const TYPE_MESSAGE = 'message';
 
     private $clientUserId;
     private $messageKey;
